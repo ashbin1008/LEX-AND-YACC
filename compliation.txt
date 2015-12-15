@@ -13,9 +13,9 @@ Congratualtions Lex and Yacc have been installed on your system.
 for compiling lex and yacc together
 1. write lex program in a file file.l and yacc in a file file.y
 2. open the terminal and navigate to the directory where you have saved the files.
-3. type lex file.l
-4. type yacc file.y
-5. type cc lex.yy.c y.tab.h -ll
+3. type lex file.l 
+4. type yacc file.y -d 
+5. type gcc lex.yy.c y.tab.h -ll 
 6. type ./a.out
 
 The lex and yacc will run succesfully now
