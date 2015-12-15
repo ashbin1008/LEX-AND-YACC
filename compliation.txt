@@ -1,0 +1,21 @@
+ Ubuntu does not come installed with a lex and yacc compiler to do so install it first by
+1. Opening the terminal
+2. type - sudo apt-get install flex
+3. enter your password
+
+after installation of flex finishes
+4. type - sudo apt-get install bison
+5. enter your pasword.
+
+Congratualtions Lex and Yacc have been installed on your system.
+
+
+for compiling lex and yacc together
+1. write lex program in a file file.l and yacc in a file file.y
+2. open the terminal and navigate to the directory where you have saved the files.
+3. type lex file.l
+4. type yacc file.y
+5. type cc lex.yy.c y.tab.h -ll
+6. type ./a.out
+
+The lex and yacc will run succesfully now
